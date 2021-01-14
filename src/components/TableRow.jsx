@@ -1,14 +1,14 @@
 import { Component } from "react";
-import './App.css';
+import '../App.css';
 
-class TableRow extends Component{
+export default class TableRow extends Component{
     constructor(props){
         super(props);
     }
 
     render(){
         return(
-            <div className="row"> {this.props.cells} </div>
+            <tr className="row"> {this.props.cells} </tr>
         );
     }
 }

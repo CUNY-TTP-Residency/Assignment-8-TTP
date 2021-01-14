@@ -1,14 +1,14 @@
 import { Component } from "react";
-import './App.css';
+import '../App.css';
 
-class TableCell extends Component{
+export default class TableCell extends Component{
     constructor(props){
         super(props);
     }
 
     render(){
         return(
-            <div className="cell"/>
+            <td className="cell"/>
         );
     }
 }
