@@ -8,7 +8,12 @@ export default class TableCell extends Component{
 
     render(){
         return(
-            <td className="cell"/>
+            <td className="cell"
+                onMouseUp = {this.props.mouseUp}
+                onMouseDown = {this.props.mouseDown}
+                onMouseEnter = {this.props.mouseEnter}
+                onClick = {this.props.onClick}
+            />
         );
     }
 }
