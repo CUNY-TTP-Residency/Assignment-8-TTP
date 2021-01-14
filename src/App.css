@@ -1,5 +1,7 @@
 .App {
+  height: 100vmin;
   text-align: center;
+  
 }
 
 .cell {
@@ -11,4 +13,12 @@
 .row{
   display: flex;
   flex-direction: row;
+}
+
+.table{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
